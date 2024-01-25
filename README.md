@@ -1,6 +1,7 @@
 # E-Commerce-App
 
 Welcome to E-Commerce-App, a dynamic and feature-rich e-commerce application. This project is designed to provide a seamless shopping experience with key features such as a user-friendly "Buy Now" form and dynamic routes.
+Live Preview: <a href = 'https://helpful-maamoul-ff7564.netlify.app/'>Click here </a>
 
 ## Features
 
