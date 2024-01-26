@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link} from 'react-router-dom';
 
-export default function Shop() {
+export default function Shop({title}) {
   const [details, setDetails] = useState([]);
   
   useEffect(() => {
@@ -25,7 +25,7 @@ export default function Shop() {
         <div key={index}className =' product-container '>
           <img src={item.image} alt={item.title} />
           <h3>{item.title}</h3>
-          <h4>₹{item.price}</h4>
+          <h4>${item.price}</h4>
           <Link to={`/Product/${item.id}`}className= 'btn'>View Details>>></Link>
         
         </div>
